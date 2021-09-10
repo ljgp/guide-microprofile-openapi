@@ -21,6 +21,6 @@
   
   <applicationMonitor dropinsEnabled="false"/>
 
-  <webApplication location="guide-microprofile-openapi.war" contextRoot="/" />
+  <webApplication location="guide-microprofile-openapi.war" contextRoot="/test" />
 
 </server>
