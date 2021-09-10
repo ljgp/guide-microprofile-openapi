@@ -19,8 +19,8 @@
 
   <!-- <logging traceSpecification="com.ibm.ws.microprofile.openapi.*=all"/> -->
   
-  <applicationMonitor dropinsEnabled="true"/>
+  <applicationMonitor dropinsEnabled="false"/>
 
-<!--   <webApplication location="guide-microprofile-openapi.war" contextRoot="/test" /> -->
+<webApplication location="guide-microprofile-openapi.war" contextRoot="guide-microprofile-openapi" />
 
 </server>
