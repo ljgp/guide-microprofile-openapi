@@ -8,7 +8,9 @@
     <feature>mpRestClient-2.0</feature>
     <feature>mpOpenAPI-2.0</feature>
   </featureManager>
-
+  
+  <httpDispatcher enableWelcomePage="false"/>
+ 
   <variable name="default.http.port" defaultValue="9080"/>
   <variable name="default.https.port" defaultValue="9443"/>
 
