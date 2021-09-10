@@ -18,6 +18,8 @@
       id="defaultHttpEndpoint" host="*" />
 
   <!-- <logging traceSpecification="com.ibm.ws.microprofile.openapi.*=all"/> -->
+  
+  <applicationMonitor dropinsEnabled="false"/>
 
   <webApplication location="guide-microprofile-openapi.war" contextRoot="/" />
 
